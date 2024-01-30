@@ -33,7 +33,7 @@ nav ul li a {
 }
 
 #whatsapp a img {
-    width: 20px; /* Ajuste conforme necessário */
+    width: 20px;
     margin-right: 5px;
 }
 
@@ -67,10 +67,9 @@ nav ul li a {
     border-radius: 5px;
 }
 
-/* Adicione regras de mídia (media queries) para tornar o site responsivo */
 @media screen and (max-width: 600px) {
     #logo img {
-        width: 30px; /* Ajuste conforme necessário */
+        width: 30px;
         margin-right: 10px;
     }
 
