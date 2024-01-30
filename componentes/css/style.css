@@ -61,7 +61,8 @@ p{
 }
 
 .seccao-de-banner{
-  height: 625px;
+  margin-top: -45px;
+  height: 225px;
   width: 100%;
   background-color: rgb(99, 99, 168);
 }
