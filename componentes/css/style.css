@@ -1,68 +1,81 @@
-body{
-    font-family: poppinsregular;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-}
-
-#title{
-    flex-direction: column;
-    line-height: 10px;
-}
-
-ul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-li{
-    display: inline-block;
-    margin: 20px;
-}
-
-a{
-    color: black;
-}
-
-#inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+header {
+    background-color: #333;
+    color: #fff;
     padding: 10px;
-    border-radius: 15px;
-}
-
-h1{
-    font-weight: 200;
-}
-
-main{
     display: flex;
-    flex-direction: row;
-    margin-top: 50px;
+    align-items: center;
 }
 
-h2{
-    font-size: 56px;
-    line-height: 10px;
-    font-family: poppinsmedium;
+#logo img {
+    width: 50px; /* Ajuste conforme necessário */
+    margin-right: 20px;
 }
 
-p{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.seccao-de-banner{
-  margin-top: -95px;
-  height: 225px;
-  width: 100%;
-  background-color: rgb(162, 162, 175);
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#whatsapp a img {
+    width: 20px; /* Ajuste conforme necessário */
+    margin-right: 5px;
+}
+
+#banner {
+    background-color: #add8e6;
+    position: relative;
+    overflow: hidden;
+}
+
+#moto {
+    background: url('moto-image.jpg') no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 50%;
+    float: right;
+}
+
+#texto-banner {
+    padding: 50px;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+
+.btn-saber-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Adicione regras de mídia (media queries) para tornar o site responsivo */
+@media screen and (max-width: 600px) {
+    #logo img {
+        width: 30px; /* Ajuste conforme necessário */
+        margin-right: 10px;
+    }
+
+    #moto, #texto-banner {
+        width: 100%;
+        float: none;
+    }
 }
