@@ -10,6 +10,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    color: black;
 }
 
 #title{
@@ -23,23 +24,13 @@ li{
 }
 
 a{
-    color: white;
-}
-
-a:hover{
-    color: rgb(132, 14, 201);
-    transition: 0.3s all;
+    color: black;
 }
 
 #inscreva-se-btn{
     border: 2px solid rgb(132, 14, 201);
     padding: 10px;
     border-radius: 15px;
-}
-
-#inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
-    color: white;
 }
 
 h1{
@@ -56,10 +47,6 @@ h2{
     font-size: 56px;
     line-height: 10px;
     font-family: poppinsmedium;
-}
-
-span{
-    color: rgb(132, 14, 201);
 }
 
 p{
