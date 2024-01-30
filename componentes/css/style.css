@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 #moto {
-    background: url('moto-image.jpg') no-repeat;
+    background: url('../img/screenshot-50.png') no-repeat;
     background-size: cover;
     height: 300px;
     width: 50%;
